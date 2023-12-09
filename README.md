@@ -3,11 +3,15 @@ Vendor Management System Setup Instructions
 1. Install Python:
    - Ensure Python is installed on your machine. Download it from python.org.
 
-2. Create Virtual Environment:
+2. Clone project:
+   - Open a terminal or command prompt.
+   - Run: git clone https://github.com/prashant-paliwal/Fatmug_django/
+
+3. Create Virtual Environment:
    - Open a terminal or command prompt.
    - Run: virtualenv env
 
-3. Activate Virtual Environment:
+4. Activate Virtual Environment:
 
    For Windows:
    - Navigate to the 'Scripts' directory: cd env\Scripts
@@ -16,11 +20,11 @@ Vendor Management System Setup Instructions
    For Linux:
    - Activate the virtual environment: source env/bin/activate
 
-4. Install Dependencies:
-   - Go to the project root directory: cd Fatmung_assessment\vendor_management_system
+5. Install Dependencies:
+   - Go to the project root directory: cd vendor_management_system
    - Install project dependencies: pip install -r requirements.txt
 
-5. Run Migrations:
+6. Run Migrations:
    - Create and apply database migrations:
      - Run: python manage.py makemigrations
      - Run: python manage.py migrate
