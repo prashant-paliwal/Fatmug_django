@@ -1,4 +1,5 @@
 Vendor Management System Setup Instructions
+Using Python, Django, DRF, Django Signals, Test cases etc.
 
 1. Install Python:
    - Ensure Python is installed on your machine. Download it from python.org.
